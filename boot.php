@@ -60,7 +60,6 @@ rex_extension::register('EDITOR_URL', function (rex_extension_point $ep) {
 
 
 
-<?php
 
 /**
  * This file contains code that should be added to boot.php to integrate

@@ -15,5 +15,7 @@ if (!$this->hasConfig()) {
         'prefix' => false,
         'umlauts' => false,
         'delete' => true,
+        'versioning' => true,
+        'max_versions' => 10,
     ]);
 }

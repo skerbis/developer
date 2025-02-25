@@ -9,6 +9,7 @@ page:
     icon: rex-icon fa-code
     subpages:
         settings: { title: translate:settings }
+        versions: { title: translate:version_history, itemtype: true, hidden: true }
         readme: { title: translate:readme, subPath: README.md }
 
 console_commands:

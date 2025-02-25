@@ -18,3 +18,36 @@ developer_saved = Die Einstellungen wurden gespeichert.
 developer_error = Es ist ein Fehler aufgetreten.
 
 developer_readme = Hilfe
+
+developer_versioning = Versionierung aktivieren
+developer_max_versions = Maximale Anzahl der Versionen (0 = unbegrenzt)
+
+developer_version_history = Versionshistorie
+developer_versions = Versionen
+developer_version_history_for = Versionshistorie für "{0}"
+developer_back_to_item = Zurück zum Element
+developer_version_comparing = Version {0} für {1} vergleichen
+developer_version_file_template = Template
+developer_version_file_input = Eingabe
+developer_version_file_output = Ausgabe
+developer_version_file_preview = Vorschau
+developer_version_file_presave = Presave
+developer_version_file_postsave = Postsave
+developer_version_file_body = Body
+developer_version_file_body_html = HTML-Body
+developer_version_available = Verfügbare Versionen ({0})
+developer_version_information = Information
+developer_version_no_history = Es sind noch keine Versionen vorhanden
+developer_version_current = Aktuelle Version
+developer_version_old = Version {0}
+developer_version_version = Version
+developer_version_date = Datum
+developer_version_user = Benutzer
+developer_version_file = Datei
+developer_version_functions = Funktionen
+developer_version_compare = Vergleichen
+developer_version_restore = Wiederherstellen
+developer_version_restored = Version {0} wurde wiederhergestellt
+developer_version_restore_error = Fehler beim Wiederherstellen der Version
+developer_version_confirm_restore = Möchten Sie diese Version wirklich wiederherstellen? Die aktuelle Version wird überschrieben.
+developer_version_invalid_item = Ungültiges Element

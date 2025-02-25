@@ -15,6 +15,9 @@ if (rex_post('config-submit', 'boolean')) {
         ['prefix', 'bool'],
         ['umlauts', 'bool'],
         ['delete', 'bool'],
+        // New options
+        ['versioning', 'bool'],
+        ['max_versions', 'int'],
     ]));
 
     echo rex_view::success($this->i18n('saved'));
@@ -62,6 +65,16 @@ $formElements[] = $n;
 $n = [];
 $n['label'] = '<label for="rex-developer-rename">' . $this->i18n('rename') . '</label>';
 $n['field'] = '<input type="checkbox" id="rex-developer-rename" name="config[rename]" value="1" ' . ($this->getConfig('rename') ? ' checked="checked"' : '') . ' />';
+$formElements[] = $n;
+
+$n = [];
+$n['label'] = '<label for="rex-developer-versioning">' . $this->i18n('versioning') . '</label>';
+$n['field'] = '<input type="checkbox" id="rex-developer-versioning" name="config[versioning]" value="1" ' . ($this->getConfig('versioning') ? ' checked="checked"' : '') . ' />';
+$formElements[] = $n;
+
+$n = [];
+$n['label'] = '<label for="rex-developer-max-versions">' . $this->i18n('max_versions') . '</label>';
+$n['field'] = '<input type="number" id="rex-developer-max-versions" name="config[max_versions]" value="' . $this->getConfig('max_versions', 10) . '" min="0" max="100" />';
 $formElements[] = $n;
 
 $n = [];
